@@ -40,3 +40,46 @@ button{
 button:hover{
     background-color: #ff8c45;
 }
+
+
+
+
+@media (max-width:700px){
+    .container{
+       background-color: green;
+    }
+    .bts{
+       text-align: center;
+       margin: 11px;
+       display:flex ;
+       flex-wrap: wrap;
+       justify-content: center;
+       
+       
+    }
+    button{
+        padding: 30px;
+        width: auto;
+        margin-right: 350px;
+    }
+
+}
+
+
+@media (max-width:400px){
+    .container{
+        background-color: green;
+     }
+     .bts{
+        text-align: center;
+        margin: 11px;
+        display:flex ;
+        justify-content: center;
+        
+     }
+    button{
+        padding: 50px;
+        margin-right: 350px;
+    }
+
+}
